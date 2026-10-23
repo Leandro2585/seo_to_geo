@@ -48,4 +48,4 @@ Principais achados da execução de 23/10/2026:
 - No RAG simulado, o JSON-LD foi recuperado só em parte (67% no S1, 50% no S3); no marketplace, o trecho com o vendedor não foi recuperado, o modelo deixou o vendedor nulo e a acurácia caiu para 0,88 nas três variantes.
 - A acurácia foi idêntica nas 3 execuções; só as notas autodeclaradas variaram (até 0,12).
 
-> Os resultados dependem da versão do modelo. Para repetir o experimento com outro modelo, troque `MODEL` no início do script. O `claude-sonnet-5-5` não aceita o parâmetro `temperature`, por isso a chamada usa a amostragem padrão da API.
+> Os resultados dependem da versão do modelo. Para repetir o experimento com outro modelo, troque `MODEL` no início do script. O `claude-sonnet-5-5`.
