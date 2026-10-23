@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Exemplo</title>
+    <!-- JSON-LD entregue no HTML inicial (pré-renderização / SSR do bloco semântico) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Smartphone Nexo X12 Pro 256 GB - Grafite",
+      "sku": "NX12P-256-GRF",
+      "brand": { "@type": "Brand", "name": "Nexo" },
+      "description": "Smartphone Nexo X12 Pro com tela AMOLED de 6,7 polegadas, câmera de 200 MP, 12 GB de RAM, 256 GB de armazenamento e bateria de 5.000 mAh.",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.6,
+        "bestRating": 5,
+        "reviewCount": 1284
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://loja-exemplo.com.br/nexo-x12-pro-256gb",
+        "price": 3499.00,
+        "priceCurrency": "BRL",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "seller": { "@type": "Organization", "name": "Loja Exemplo" }
+      }
+    }
+    </script>
+</head>
+<body>
+    <noscript>Habilite o JavaScript para utilizar a Loja Exemplo.</noscript>
+    <div id="root" data-inject-jsonld="false"></div>
+    <script src="s2_spa_app.js"></script>
+</body>
+</html>
