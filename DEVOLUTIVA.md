@@ -133,8 +133,8 @@ Esta devolutiva foi enviada individualmente, pelo mesmo canal privado do convite
 |---|---|
 | Data de envio | 23 out. 2026 |
 | Pessoas convidadas que receberam o link | 31 |
-| Retornos recebidos | 7 |
-| Nota de utilidade (1 a 5) | 5, 5, 4, 4, 4, 3, 5 |
+| Retornos recebidos | 8 |
+| Nota de utilidade (1 a 5) | 5, 5, 4, 4, 4, 3, 5, 3 |
 | Nota média de utilidade (1 a 5) ||
 
 *Retornos registrados até: _preencher_.*
