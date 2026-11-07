@@ -26,7 +26,7 @@ Ou seja: cada vez mais gente recebe a resposta "pronta", e quem não aparece nes
 
 ### O que testamos
 
-Criamos páginas de uma loja virtual fictícia e pedimos a uma IA que fizesse a leitura delas o **preço**, a **nota**, o **número de avaliações**, o **vendedor** e se o produto estava **disponível**. Depois conferimos se ela acertou.
+Criamos páginas de uma loja virtual fictícia e pedimos a uma IA que lesse nelas o **preço**, a **nota**, o **número de avaliações**, o **vendedor** e se o produto estava **disponível**. Depois conferimos se ela acertou.
 
 ### O que descobrimos
 
@@ -110,7 +110,7 @@ As páginas testadas estão em [`pages/`](pages/) e os resultados brutos, em [`d
 ### Reproduzir o experimento
 
 ```bash
-cd pip install -r requirements.txt
+pip install -r requirements.txt
 python -m playwright install chromium
 # coloque ANTHROPIC_API_KEY=... em um arquivo .env
 python experiment.py --dry-run   # só leitura e fragmentação, sem custo de API
@@ -134,7 +134,7 @@ Esta devolutiva foi enviada individualmente, pelo mesmo canal privado do convite
 | Data de envio | 23 out. 2026 |
 | Pessoas convidadas que receberam o link | 31 |
 | Retornos recebidos | 10 |
-| Nota de utilidade (1 a 5) | 5, 5, 4, 4, 4, 3, 5, 3, 5, 5 |
-| Nota média de utilidade (1 a 5) ||
+| Notas de utilidade (1 a 5) | 5, 5, 4, 4, 4, 3, 5, 3, 5, 5 |
+| Nota média de utilidade (1 a 5) | 4,3 |
 
 *Retornos registrados até: _preencher_.*
